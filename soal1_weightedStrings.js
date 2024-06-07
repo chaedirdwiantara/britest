@@ -50,7 +50,7 @@ const getWeightedStrings = (s, queries) => {
   return result;
 };
 
-const s = "abbccdd";
+const s = "abbcccd";
 const queries = [1, 3, 9, 8];
 const output = getWeightedStrings(s, queries);
 console.log(output);
